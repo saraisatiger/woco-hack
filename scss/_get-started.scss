@@ -13,6 +13,10 @@ button#dropdownMenuButton {
   margin-bottom: $margin-bottom-small;
 }
 
+p {
+  margin: 0 !important;
+}
+
 
 button.btn.btn-primary {
   background: $color-blue;
@@ -21,7 +25,11 @@ button.btn.btn-primary {
 
 .kiosk-representative {
   display: block;
+  text-align: center;
+  padding: $padding-button;
+  background: $color-orange;
 }
+
 
 .kiosk-rep-title, .kiosk-hours {
   display: inline-block;

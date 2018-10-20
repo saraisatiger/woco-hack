@@ -8,6 +8,18 @@ button#dropdownMenuButton {
   padding: 10px 20px;
   margin-bottom: 10px; }
 
+p {
+  margin: 0 !important; }
+
 button.btn.btn-primary {
   background: #1E87BC;
   padding: 10px 40px; }
+
+.kiosk-representative {
+  display: block;
+  text-align: center;
+  padding: 10px 20px;
+  background: #EA960F; }
+
+.kiosk-rep-title, .kiosk-hours {
+  display: inline-block; }
