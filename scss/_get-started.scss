@@ -1,0 +1,36 @@
+@import 'globals/_colors.scss';
+@import 'globals/_spacing.scss';
+
+.get-started-container {
+  background: $color-background-gray;
+}
+
+button#dropdownMenuButton {
+  background: #fff;
+  border: 3px solid $color-blue;
+  color: $color-blue;
+  padding: $padding-button;
+  margin-bottom: $margin-bottom-small;
+}
+
+p {
+  margin: 0 !important;
+}
+
+
+button.btn.btn-primary {
+  background: $color-blue;
+  padding: 10px 40px;
+}
+
+.kiosk-representative {
+  display: block;
+  text-align: center;
+  padding: $padding-button;
+  background: $color-orange;
+}
+
+
+.kiosk-rep-title, .kiosk-hours {
+  display: inline-block;
+}
