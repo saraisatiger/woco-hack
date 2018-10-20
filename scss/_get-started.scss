@@ -1,8 +1,62 @@
 @import 'globals/_colors.scss';
 @import 'globals/_spacing.scss';
+@import 'globals/_typography.scss';
+
+// Get started page css
+
+body {
+  background: $color-background-gray !important;
+}
+
+h1 {
+  font-family: $font-family-raleway;
+  color: $color-dark-gray;
+}
 
 .get-started-container {
   background: $color-background-gray;
+  height: auto;
+}
+
+.container.main-content {
+    margin-top: 77px;
+}
+
+.get-started-heading {
+  text-align: center;
+  font-family: $font-family-raleway;
+  font-size: $base-font-size;
+  padding-bottom: 50px;
+  color: $color-dark-gray;
+}
+
+.header {
+  display: block;
+  background: #fff;
+
+  .logo {
+    width: 19%;
+    margin-left: 99px;
+    position: absolute;
+  }
+
+  .header-image {
+    background-image: url('../images/header.png');
+    height: 200px;
+    background-image: url(../images/header.png);
+    height: 226px;
+    /* right: 20px; */
+    background-position: top right;
+    width: 97%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.main-buttons {
+  margin: auto;
+  text-align: center;
+  display: block;
 }
 
 button#dropdownMenuButton {
@@ -13,24 +67,102 @@ button#dropdownMenuButton {
   margin-bottom: $margin-bottom-small;
 }
 
-p {
-  margin: 0 !important;
-}
-
 
 button.btn.btn-primary {
   background: $color-blue;
-  padding: 10px 40px;
+  padding: 10px 93px;
+  display: block;
+  margin: auto;
+  margin-bottom: $margin-bottom-small;
+  text-align: center;
+
 }
 
-.kiosk-representative {
+button.btn.btn-primary.accessibility-button {
+  background: #fff;
+  border: 3px solid $color-blue;
+  color: $color-blue;
+  display: block;
+  position: relative;
+  margin: auto;
+  margin-top: 9%;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+.ear-icon {
+  width: 20%;
+  margin-right: 20px;
+}
+
+
+
+
+p {
+  margin: 0 !important;
+  font-family: $font-family-raleway;
+}
+
+
+
+.kiosk-container {
   display: block;
   text-align: center;
-  padding: $padding-button;
-  background: $color-orange;
-}
+  padding: 15px 54px;
+  background: #C77F0A;
+  position: fixed;
+  bottom: 0;
+  color: #fff;
+  width: 100%;
+  font-size: 14px;
+
+  .clock-icon {
+    width: 3%;
+    position: relative;
+    right: 156px;
+    display: inline-block;
+    top: 10px;
+    background: $color-orange;
+
+  }
+
+  .kiosk-information {
+    display: inline-flex;
+    background: #C77F0A;
+
+    .kiosk-rep-title {
+      width: 51%;
+      text-align: left;
+      position: relative;
+      right: 110px;
+    }
+
+    .kiosk-hours {
+      position: relative;
+      bottom: 10px;
+      position: relative;
+      top: 8px;
+    }
+
+    .kiosk-rep-title, .kiosk-hours {
+      display: inline-block;
+      width: auto;
+
+    }
 
 
-.kiosk-rep-title, .kiosk-hours {
-  display: inline-block;
+    .week-hours {
+      padding-right: 50px;
+    }
+  }
+
+  .kiosk-div {
+    right: 208px;
+    position: relative;
+  }
+
+
+
 }
