@@ -5,7 +5,7 @@
 // Get started page css
 
 body {
-  background: $color-background-gray !important;
+  background: $color-background-gray;
 }
 
 h1 {
@@ -124,7 +124,7 @@ p {
     right: 156px;
     display: inline-block;
     top: 10px;
-    background: $color-orange;
+    // background: $color-orange;
 
   }
 
