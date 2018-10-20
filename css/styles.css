@@ -93,8 +93,7 @@ p {
     position: relative;
     right: 156px;
     display: inline-block;
-    top: 10px;
-    background: #EA960F; }
+    top: 10px; }
   .kiosk-container .kiosk-information {
     display: inline-flex;
     background: #C77F0A; }
