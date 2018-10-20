@@ -1,0 +1,13 @@
+.get-started-container {
+  background: #F8FAFB; }
+
+button#dropdownMenuButton {
+  background: #fff;
+  border: 3px solid #1E87BC;
+  color: #1E87BC;
+  padding: 10px 20px;
+  margin-bottom: 10px; }
+
+button.btn.btn-primary {
+  background: #1E87BC;
+  padding: 10px 40px; }
