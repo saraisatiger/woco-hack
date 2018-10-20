@@ -1,11 +1,52 @@
+body {
+  background: #F8FAFB !important; }
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  color: #76767C; }
+
 .get-started-container {
-  background: #F8FAFB; }
+  background: #F8FAFB;
+  height: auto; }
+
+.container.main-content {
+  margin-top: 77px; }
+
+.get-started-heading {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  padding-bottom: 50px;
+  color: #76767C; }
+
+.header {
+  display: block;
+  background: #fff; }
+  .header .logo {
+    width: 19%;
+    margin-left: 99px;
+    position: absolute; }
+  .header .header-image {
+    background-image: url("../images/header.png");
+    height: 200px;
+    background-image: url(../images/header.png);
+    height: 226px;
+    /* right: 20px; */
+    background-position: top right;
+    width: 97%;
+    background-repeat: no-repeat;
+    background-size: contain; }
+
+.main-buttons {
+  margin: auto;
+  text-align: center;
+  display: block; }
 
 button#dropdownMenuButton {
   background: #fff;
   border: 3px solid #1E87BC;
   color: #1E87BC;
-  padding: 10px 20px;
+  padding: 10px 54px;
   margin-bottom: 10px; }
 
 .choiceButton {
@@ -54,13 +95,24 @@ p {
 
 button.btn.btn-primary {
   background: #1E87BC;
-  padding: 10px 40px; }
-
-.kiosk-representative {
+  padding: 10px 93px;
   display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center; }
+
+button.btn.btn-primary.accessibility-button {
+  background: #fff;
+  border: 3px solid #1E87BC;
+  color: #1E87BC;
+  display: block;
+  position: relative;
+  margin: auto;
+  margin-top: 9%;
   text-align: center;
-  padding: 10px 20px;
-  background: #EA960F; }
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px; }
 
 .kiosk-rep-title, .kiosk-hours {
   display: inline-block; }
