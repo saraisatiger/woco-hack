@@ -22,9 +22,10 @@ app = Flask(__name__)
 
 # Get HTML content from URL
 htmlList = [
-        urlopen('https://www.shelterlistings.org/city/west_palm_beach-fl.html'),        # shelter
-        urlopen('http://www.crosministries.org/contactus.php?CROSpagename=contactus'),  # food
-        urlopen('https://thelordsplace.org/what-we-do/employment-training/')            # jobs
+        urlopen('https://www.shelterlistings.org/city/west_palm_beach-fl.html'),                # shelter
+        # urlopen('http://www.crosministries.org/contactus.php?CROSpagename=contactus'),  # food
+        urlopen('http://www.crosministries.org/more.php?CROSpagename=programscontent1_more'),   # food
+        urlopen('https://thelordsplace.org/what-we-do/employment-training/')                    # jobs
     ]
 
 # Convert HTML content BeautifulSoup object
@@ -34,7 +35,8 @@ for html in htmlList:
 
 # Parse relevant HTML content (as HTML)
 shelterContent = soupList[0].find('tbody')
-foodContent = soupList[1].find('article', {'class' : 'grid_6'})
+# foodContent = soupList[1].find('article', {'class' : 'grid_6'})
+foodContent = soupList[1].find('div', {'class' : 'extra-wrap'})
 jobsContent = soupList[2].find('div', {'class':'content-primary'})
 
 @app.route('/')
