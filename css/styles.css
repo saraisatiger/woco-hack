@@ -243,7 +243,8 @@ p {
     width: 50%;
     text-align: right; }
   .header2 .speak {
-    padding-right: 25px; }
+    padding-right: 25px;
+    display: inline;}
   .header2 img {
     display: inline-block; }
   .header2 .ear-container {
@@ -261,3 +262,8 @@ p {
 
 .mapouter {
   float: right; }
+
+.main-buttons .btn.btn-primary a {
+  color: #fff;
+  text-decoration: none;
+}
