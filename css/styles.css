@@ -84,7 +84,7 @@ p {
   color: #76767C; }
 
 .bottomSpace {
-  padding: 30px; }
+  padding: 24px; }
 
 .square-box {
   width: 70%;
@@ -113,8 +113,26 @@ p {
   width: 150px;
 }
 
+.buttonLine{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
 .pagePadding{
   padding: 24px;
+}
+
+.titlePadding{
+  padding-right: 125px;
+}
+
+.titlePadding2{
+  padding-right: 120px;
+}
+
+.pie-icon{
+  width: 20%;
+  float:right;
 }
 
 button.btn.btn-primary {
