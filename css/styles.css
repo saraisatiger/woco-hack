@@ -117,9 +117,19 @@ p {
   width: 150px;
 }
 
+.skillsButton:hover {
+  background-color: #1E87BC;
+  cursor: pointer;
+  color: white; }
+
 .buttonLine{
   padding-left: 18px;
   padding-right: 18px;
+}
+
+.locTitle{
+  color: #1E87BC;
+  font-size: 18px;
 }
 
 .pagePadding{
