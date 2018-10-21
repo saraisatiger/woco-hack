@@ -16,21 +16,36 @@ from flask import Flask
 from bs4 import BeautifulSoup
 from urllib2 import urlopen
 import html5lib
-import json
-from pprint import pprint
 
 
 app = Flask(__name__)
 
 # Get HTML content from URL
-html = urlopen('http://www.crosministries.org/contactus.php?CROSpagename=contactus')
+htmlList = [
+        urlopen('https://www.shelterlistings.org/city/west_palm_beach-fl.html'),        # shelter
+        urlopen('http://www.crosministries.org/contactus.php?CROSpagename=contactus')   # food
+        # , urlopen('<jobs.url>')
+    ]
 
 # Convert HTML content BeautifulSoup object
-soup = BeautifulSoup(html.read(), 'html5lib');
+soupList = []
+for html in htmlList:
+    soupList.append(BeautifulSoup(html.read(), 'html5lib'))
 
 # Parse relevant HTML content (as HTML)
-htmlContent = soup.find('article', {'class':'grid_6'})
+shelterContent = soupList[0].find('tbody')
+foodContent = soupList[1].find('article', {'class' : 'grid_6'})
+# jobsContent = soupList[2].find('tbody')
 
 @app.route('/')
 def main():
-    return str(htmlContent) # hack to dump content; TODO need to write out to .html file in subdirectory
+    with open("includes/shelter.html", "w") as file:
+        file.write(str(shelterContent))
+
+    with open("includes/food.html", "w") as file:
+        file.write(str(foodContent))
+
+    # with open("includes/jobs.html", "w") as file:
+        # file.write(str(jobContent))
+
+    return "Kthanksbye!"
