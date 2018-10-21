@@ -208,3 +208,7 @@ p {
 .no-style {
   text-decoration: none; }
 
+.mapouter {
+  float: right;
+}
+
