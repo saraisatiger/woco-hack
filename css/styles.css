@@ -229,8 +229,9 @@ p {
   .header2 .speak {
     padding-right: 25px; }
   .header2 img {
-    width: 15%;
     display: inline-block; }
+  .header2 .ear-container {
+    width: 15%; }
   .header2 .ear-container {
     float: right; }
   .header2 .ear-icon-white {
