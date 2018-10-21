@@ -118,6 +118,18 @@ p {
   padding: 60px;
   box-shadow: 0px 0px 5px 5px #B8B8B8; }
 
+.locationCard{
+  width: 50%;
+  overflow: hidden;
+  background: #FFF;
+  padding: 24px;
+  box-shadow: 0px 0px 5px 5px #B8B8B8;
+}
+
+.pagePadding{
+  padding-left: 36px;
+}
+
 button.btn.btn-primary {
   background: #1E87BC;
   padding: 10px 93px;
