@@ -1,5 +1,6 @@
 body {
-  background: #F8FAFB !important; }
+  background: #F8FAFB !important;
+  font-family: 'Raleway', sans-serif; }
 
 h1 {
   font-family: "Raleway", sans-serif;
@@ -49,36 +50,11 @@ button#dropdownMenuButton {
   padding: 10px 54px;
   margin-bottom: 10px; }
 
-.header2{
-  display: block;
-  background: #1E87BC;
-  padding: 16px;
-      text-align: center;
-}
-
-.speakButton{
-  background: #fff;
-  border: 3px solid #1E87BC;
-  color: #1E87BC;
-  padding: 10px 20px;
-  margin-bottom: 10px;
-  border-radius: 4px;
-  width: 250px;
-  float: right;
-}
-
-.titleText{
-  color: white;
-  margin:auto;
-    font-size: 34px;
-
-}
-
 .choiceButton {
   background: #fff;
   border: 3px solid #1E87BC;
   color: #1E87BC;
-  padding: 10px 20px;
+  padding: 10px 54px;
   margin-bottom: 10px;
   border-radius: 4px;
   width: 250px; }
@@ -139,12 +115,6 @@ button.btn.btn-primary.accessibility-button {
   padding-right: 30px;
   padding-bottom: 10px; }
 
-.kiosk-rep-title, .kiosk-hours {
-  display: inline-block; }
-
-.header-right {
-  float: right; }
-
 .ear-icon {
   width: 20%;
   margin-right: 20px; }
@@ -191,3 +161,34 @@ p {
   .kiosk-container .kiosk-div {
     right: 208px;
     position: relative; }
+
+.header-right {
+  float: right; }
+
+.header2 {
+  background-color: #1E87BC;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif; }
+  .header2 h4, .header2 h2 {
+    display: inline-block;
+    color: #fff;
+    padding-top: 10px; }
+  .header2 :first-child {
+    float: left;
+    margin-top: 7px; }
+  .header2 h2 {
+    width: 50%;
+    text-align: right; }
+  .header2 .speak {
+    padding-right: 25px; }
+  .header2 img {
+    width: 15%;
+    display: inline-block; }
+  .header2 .ear-container {
+    float: right; }
+
+.back-arrow {
+  width: 80px;
+  background: orange;
+  border-radius: 50%;
+  margin: 7px 10px 0 15px; }
