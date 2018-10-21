@@ -191,3 +191,8 @@ p {
   .kiosk-container .kiosk-div {
     right: 208px;
     position: relative; }
+
+/* Sara's mess :/ */
+.no-style {
+  text-decoration: none; }
+
