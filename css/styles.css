@@ -97,6 +97,11 @@ p {
 .center {
   text-align: center; }
 
+.buttonLine {
+  text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;}
+
 .choiceTitle {
   font-size: 30px;
   text-align: center;
