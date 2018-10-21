@@ -23,14 +23,18 @@ from pprint import pprint
 app = Flask(__name__)
 
 # Get HTML content from URL
-html = urlopen('http://www.crosministries.org/contactus.php?CROSpagename=contactus')
+html = urlopen('https://thelordsplace.org/what-we-do/employment-training/')
 
 # Convert HTML content BeautifulSoup object
 soup = BeautifulSoup(html.read(), 'html5lib');
 
 # Parse relevant HTML content (as HTML)
-htmlContent = soup.find('article', {'class':'grid_6'})
+htmlContent = soup.find('div', {'class':'content-primary'})
 
 @app.route('/')
 def main():
-    return str(htmlContent) # hack to dump content; TODO need to write out to .html file in subdirectory
+    # return str(htmlContent) # hack to dump content; TODO need to write out to .html file in subdirectory
+	with open("jobs.html", "w") as f:
+		f.write(str(htmlContent))
+		
+	return "Done"
