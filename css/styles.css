@@ -153,6 +153,12 @@ p {
   float:right;
 }
 
+a:hover {
+    color: white;
+    background-color: #1E87BC;
+    cursor: pointer;
+}
+
 button.btn.btn-primary {
   background: #1E87BC;
   padding: 10px 93px;
