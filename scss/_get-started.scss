@@ -6,6 +6,7 @@
 
 body {
   background: $color-background-gray !important;
+  font-family: 'Raleway', sans-serif;
 }
 
 h1 {
@@ -218,4 +219,47 @@ p {
 
 .header-right {
   float: right;
+}
+
+
+.header2 {
+  background-color: #1E87BC;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+
+  h4, h2 {
+    display: inline-block;
+    color: #fff;
+    padding-top: 10px;
+  }
+
+  :first-child {
+    float: left;
+    margin-top: 7px;
+  }
+
+  h2 {
+    width: 50%;
+    text-align: right;
+  }
+
+  .speak {
+    padding-right: 25px;
+  }
+
+  img {
+    width: 15%;
+    display: inline-block;
+   }
+
+   .ear-container {
+     float: right;
+   }
+}
+
+.back-arrow {
+  width:80px;
+  background: orange;
+  border-radius: 50%;
+  margin: 7px 10px 0 15px;
 }
