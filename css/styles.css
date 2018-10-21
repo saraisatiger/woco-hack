@@ -70,8 +70,7 @@ button#dropdownMenuButton {
 .titleText{
   color: white;
   margin:auto;
-    font-size: 34px;
-
+  font-size: 34px;
 }
 
 .choiceButton {
@@ -97,10 +96,14 @@ p {
 .center {
   text-align: center; }
 
+.locTitle {
+  color: #1E87BC;
+  font-size: 18px;}
+
 .buttonLine {
   text-align: center;
-  padding-left: 16px;
-  padding-right: 16px;}
+  padding-left: 24px;
+  padding-right: 24px;}
 
 .choiceTitle {
   font-size: 30px;
@@ -134,8 +137,8 @@ p {
 
 .skillsButton{
   background: #fff;
-  border: 3px solid #1E87BC;
-  color: #1E87BC;
+  border: 3px solid #76767C;
+  color: #76767C;
   padding: 10px 20px;
   margin-bottom: 10px;
   border-radius: 4px;
