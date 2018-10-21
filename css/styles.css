@@ -50,33 +50,6 @@ button#dropdownMenuButton {
   padding: 10px 54px;
   margin-bottom: 10px; }
 
-<<<<<<< HEAD
-.header2{
-  display: block;
-  background: #1E87BC;
-  padding: 16px;
-      text-align: center;
-}
-
-.speakButton{
-  background: #fff;
-  border: 3px solid #1E87BC;
-  color: #1E87BC;
-  padding: 10px 20px;
-  margin-bottom: 10px;
-  border-radius: 4px;
-  width: 250px;
-  float: right;
-}
-
-.titleText{
-  color: white;
-  margin:auto;
-  font-size: 34px;
-}
-
-=======
->>>>>>> 78f2122eae66798344ed700fff87b8edb7061422
 .choiceButton {
   background: #fff;
   border: 3px solid #1E87BC;
@@ -99,15 +72,6 @@ p {
 
 .center {
   text-align: center; }
-
-.locTitle {
-  color: #1E87BC;
-  font-size: 18px;}
-
-.buttonLine {
-  text-align: center;
-  padding-left: 24px;
-  padding-right: 24px;}
 
 .choiceTitle {
   font-size: 30px;
@@ -175,8 +139,7 @@ button.btn.btn-primary.accessibility-button {
   padding-bottom: 10px; }
 
 .ear-icon {
-  width: 20%;
-  margin-right: 20px; }
+  width: 20%; }
 
 p {
   margin: 0 !important;
@@ -244,9 +207,14 @@ p {
     display: inline-block; }
   .header2 .ear-container {
     float: right; }
+  .header2 .ear-icon-white {
+    margin-right: 20px; }
 
 .back-arrow {
   width: 80px;
   background: orange;
   border-radius: 50%;
   margin: 7px 10px 0 15px; }
+
+.mapouter {
+  float: right; }

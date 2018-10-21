@@ -147,7 +147,6 @@ button.btn.btn-primary.accessibility-button {
 
 .ear-icon {
   width: 20%;
-  margin-right: 20px;
 }
 
 p {
@@ -257,6 +256,10 @@ p {
    .ear-container {
      float: right;
    }
+
+   .ear-icon-white {
+    margin-right: 20px;
+   }
 }
 
 .back-arrow {
@@ -264,4 +267,8 @@ p {
   background: orange;
   border-radius: 50%;
   margin: 7px 10px 0 15px;
+}
+
+.mapouter {
+  float: right;
 }
