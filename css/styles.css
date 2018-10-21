@@ -76,12 +76,16 @@ p {
 .choiceTitle {
   font-size: 30px;
   text-align: center;
-  color: #76767C;
+  color: #5b5b5b;
   padding-bottom: 30px; }
 
 .numbering {
   float: right;
-  color: #76767C; }
+  color: #5b5b5b; }
+
+.msg{
+  color: #5b5b5b;
+}
 
 .bottomSpace {
   padding: 24px; }
@@ -128,6 +132,10 @@ p {
 
 .titlePadding2{
   padding-right: 120px;
+}
+
+.titlePadding3{
+  padding-right: 40px;
 }
 
 .pie-icon{
