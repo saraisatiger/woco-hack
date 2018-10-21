@@ -126,6 +126,10 @@ p {
   padding-right: 125px;
 }
 
+.titlePadding2{
+  padding-right: 120px;
+}
+
 .pie-icon{
   width: 20%;
   float:right;
